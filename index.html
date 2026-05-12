@@ -184,7 +184,7 @@
     .sobre-img-bg img {
       width: 80%;
       opacity: 1;
-      filter: drop-shadow(0 8px 32px rgba(10, 20, 60, 0.7)) drop-shadow(0 0 24px rgba(10,20,60,0.5));
+      filter: drop-shadow(0 0 20px rgba(255,255,255,0.6)) drop-shadow(0 0 40px rgba(255,255,255,0.3));
     }
     .sobre-badge-wrap { position: relative; }
     .sobre-badge {
@@ -215,8 +215,12 @@
     /* UNIDADES */
     #unidades { padding: 80px 5%; background: var(--cinza-claro); }
     .unidades-grid {
-      display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;
+      width: 100%;
     }
+    .unidade-card { min-width: 0; }
+    .unidade-nome { font-size: 0.9rem !important; }
+    .unidade-info { font-size: 0.8rem !important; }
     .unidade-card {
       background: var(--branco); border-radius: 16px; overflow: hidden;
       box-shadow: var(--sombra); transition: transform 0.25s, box-shadow 0.25s;
